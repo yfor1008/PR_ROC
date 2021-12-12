@@ -5,7 +5,7 @@
 
 最近项目中遇到一个比较有意思的问题, 如下所示为:
 
-![pr_high_porb_negative](README.assets/pr_high_porb_negative.png)
+![pr_high_porb_negative](https://gitee.com/yfor1008/pictures/raw/master/pr_high_porb_negative.png)
 
 图中的`PR`曲线很奇怪, 左边从1突然变到0.
 
@@ -121,7 +121,7 @@ recall = recall[:-1]
 
 结果如下图所示:
 
-![pr_low_porb_positive](README.assets/pr_low_porb_positive.png)
+![pr_low_porb_positive](https://gitee.com/yfor1008/pictures/raw/master/pr_low_porb_positive.png)
 
 可以看到, 由于正样本有很低的概率(阈值), 会导致`tps`降低, 从而导致`PR`曲线存在异常.
 
